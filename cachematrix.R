@@ -32,8 +32,3 @@ cacheSolve <- function(m, ...) {
   inv   
 }
 
-
-
-d <- makeCacheMatrix(matrix(1:16, 4, 4))
-
-cacheSolve(d)
